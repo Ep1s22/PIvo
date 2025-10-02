@@ -25,8 +25,11 @@ pyton
 Установка и запуск
 
 Клонируйте репозиторий:
+
 bash: git clone https://github.com/Ep1s22/PIvo Перейдите в директорию проекта:
+
 bash: cd название-репозитория Откройте index.html в браузере или используйте live-server:
+
 bash: npx live-server
 
 Структура проекта
