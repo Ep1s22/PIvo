@@ -27,7 +27,6 @@ git checkout develop
 
 bash
 
-
 git checkout -b feature/game-menu          # Данил Селедка
 # ИЛИ
 git checkout -b feature/booking-system     # Дмитрий Ликс
@@ -38,7 +37,6 @@ bash
 git commit -m "Add interactive game menu with cards"
 # ИЛИ
 git commit -m "Implement booking form with date picker"
-Продолжение работы
 
 bash
 
@@ -46,9 +44,7 @@ bash
 # ИЛИ
 git commit -m "Add validation for booking form fields"
 Пуш ветки на сервер
-
 bash
-
 git add .
 git commit -m "Fix layout issues on mobile devices"
 # ИЛИ
@@ -57,8 +53,6 @@ git push -u origin feature/game-menu
 # ИЛИ
 git push -u origin feature/booking-system
 Обновление локальной ветки develop после мержа:
-
 bash
-
 git checkout develop
 git pull origin develop
