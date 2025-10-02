@@ -1,0 +1,64 @@
+Участники команды:
+Тимлид: Роман Савин
+Разработчик 1: Данил Селедка
+Разработчик 2: Дмитрий Ликс
+Тестировщик: Дамир Яппаров
+
+Ссылка на репозиторий: https://github.com/Ep1s22/PIvo
+
+Настройка окружения и первое коммит
+Тимлид создал ветку develop от main и запушил её на сервер.
+bash
+
+git checkout main git pull origin main git checkout -b develop git push -u origin develop
+git checkout main
+git pull origin main
+git checkout -b develop
+git push -u origin develop
+Участники команды переключились на ветку develop:
+
+bash
+git fetch origin git checkout develop
+git fetch oigin
+git checkout develop
+Пример работы в feature-ветке:
+
+Создание ветки от актуальной develop
+
+bash
+
+
+git checkout -b feature/game-menu          # Данил Селедка
+# ИЛИ
+git checkout -b feature/booking-system     # Дмитрий Ликс
+Создание коммитов
+
+bash
+
+git commit -m "Add interactive game menu with cards"
+# ИЛИ
+git commit -m "Implement booking form with date picker"
+Продолжение работы
+
+bash
+
+ -m "Fix layout issues on mobile devices"
+# ИЛИ
+git commit -m "Add validation for booking form fields"
+Пуш ветки на сервер
+
+bash
+
+git add .
+git commit -m "Fix layout issues on mobile devices"
+# ИЛИ
+git commit -m "Add validation for booking form fields"
+git push -u origin feature/game-menu
+# ИЛИ
+git push -u origin feature/booking-system
+Обновление локальной ветки develop после мержа:
+
+bash
+
+git checkout develop
+git pull origin develop
